@@ -13,32 +13,28 @@
     margin: 0;
 }
 .container {
+    display: flex;
     width: 200px;
     height: 100px;
     background-color: #393838;
     text-align: center;
+    position: fixed;
 }
 
 .coin {
     display: flex;
     justify-content: center;
-    width: 459px;
+    width: 400px;
     margin: 110px auto 0;
-    margin-top: 44px;
-    margin-left: 191px;
 }
 .LOGO {
     display: flex;
-    justify-content: start;
-    margin: 0px 85px;
-    position: absolute;
+    margin: 7px 85px;
     width: 70px;
-    bottom: 880px;
 }
 
 .monetkatop { 
     width: 100%;
-    height: 80px;
     box-shadow: 0 4px 10px rgba(0,  0, 0, .1);
 }
 .monetkatop .container {
@@ -57,16 +53,19 @@
     text-decoration: none;
     margin-left: 397px;
     margin-top: 25px;
-    position: relative;
 }
 .monetkatop {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 15px;
+    align-items: center;
 } 
 .monetkatop2 {
     width: 100%;
-    height: 80px;
     box-shadow: 0 4px 10px rgba(0,  0, 0, .4);
+    background-color: #393838;
 }
 .monetkatop2 .container {
     position: absolute;
@@ -75,56 +74,31 @@
     justify-content: space-between;
     align-items: center;
 }
-.monetka2 li {
-    display: inline-block;
-}
-.monetka2 li a {
-    display: inline-block;
-    opacity: 0.6;
-    text-decoration: none;
-    margin-left: 386px;
-    margin-top: 30px;
-    position: relative;
-}
 .monetkatop2 {
     display: flex;
     flex-flow: row nowrap;
-    margin-top: -27px;
-}
-.balanc {
-    display: flex;
-    justify-content: start;
-    margin: 23px 1739px;
-    position: absolute;
-    width: 18px;
-    bottom: 872px;
+    justify-content: center;
+    gap: 300px;
+    padding: 28px;
 }
 .profil {
     display: flex;
     justify-content: start;
-    margin: 27px 1700px;
-    position: absolute;
     width: 36px;
-    bottom: 867px;
-}
-.balance {
-    display: flex;
-    justify-content: start;
-    margin: 23px 1759px;
-    position: absolute;
-    width: 23px;
-    bottom: 872px;
 }
 .nameprofil {
     display: flex;
     justify-content: start;
-    margin: 43px 1741px;
-    position: absolute;
-    width: 23px;
-    bottom: 872px;
     font-family: calibri;
     color: #61646B;
     text-decoration: none;
+}
+.bitkionclass {
+    font-family: calibri;
+    color: #61646B;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
 }
 .container2 {
     width: 200px;
@@ -142,37 +116,17 @@
     border-radius: 6px;
     padding: 16px 24px 16px 24px;
     margin-bottom: 12px;
-    margin-left: 253px;
 }
 .items-lipton {
     list-style: none;
     display: flex;
 }
-.items-items1 {
+.items-items {
     width: 264px;
     height: 106px;
     border: 1px solid #fff;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
     padding: 16px 24px 16px 24px;
-    margin-bottom: 12px;
-    background-color: #43464D;
-}
-.items-items2 {
-    width: 264px;
-    height: 106px;
-    border: 1px solid #fff;
-    border-radius: 0px;
-    padding: 16px 24px 16px 24px;
-    margin-bottom: 12px;
-    background-color: #43464D;
-}
-.items-items3 {
-    width: 264px;
-    height: 106px;
-    border: 1px solid #fff;
-    border-radius: 0px 10px 10px 0px;
-    padding: 16px 24px 16px 24px;
-    margin-bottom: 12px;
     background-color: #43464D;
 }
 .buymenu {
@@ -190,4 +144,76 @@
     cursor: pointer;
     color: white;
     text-decoration: black;
+}
+.item-total {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top:  14px;
+    color: #FFFFFF;
+}
+.item-totalclick {
+    display: flex;
+    justify-content: center;
+    margin-left: -17px;
+    margin-top: -58px;
+    color: #FFFFFF;
+}
+.item-title {
+    display: flex;
+    justify-content: center;
+    margin-left: -34px;
+    margin-top: -70px;
+}
+.item-desc {
+    display: flex;
+    justify-content: center;
+    margin-left: 71px;
+    margin-top: 11px;
+}
+.item-price {
+    display: flex;
+    justify-content: center;
+    margin-left: -74px;
+    margin-top: 12px;
+}
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+.classmonetka {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    min-height: calc(95vh - 74px - 74px);
+}
+.classposition {
+    display: flex;
+    position: fixed;
+}
+.ul-link {
+    color: #61646B;
+    text-decoration: none;
+}
+.mein{
+    display: flex;
+    gap: 300px;
+}
+.menuprofile {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+.bitkoinbalanc {
+    display: flex;
+}
+.bitkionclass {
+    height: 20px;
+    width: 20px;
+}
+.Buybitkoin {
+    display: flex;
+    gap: 3px;
 }
