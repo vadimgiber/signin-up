@@ -32,11 +32,6 @@
     margin: 7px 85px;
     width: 70px;
 }
-
-.monetkatop { 
-    width: 100%;
-    box-shadow: 0 4px 10px rgba(0,  0, 0, .1);
-}
 .monetkatop .container {
     height: inherit;
     display: flex;
@@ -61,12 +56,9 @@
     gap: 100px;
     padding: 15px;
     align-items: center;
-} 
-.monetkatop2 {
     width: 100%;
-    box-shadow: 0 4px 10px rgba(0,  0, 0, .4);
-    background-color: #393838;
-}
+    box-shadow: 0 4px 10px rgba(0,  0, 0, .3);
+} 
 .monetkatop2 .container {
     position: absolute;
     height: inherit;
@@ -80,6 +72,9 @@
     justify-content: center;
     gap: 300px;
     padding: 28px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,  0, 0, .4);
+    background-color: #393838;
 }
 .profil {
     display: flex;
